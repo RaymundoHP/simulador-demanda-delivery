@@ -1,0 +1,19 @@
+# Entorno virtual y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+
+# Datasets crudos descargados (Kaggle "archive (N)")
+archive*/
+
+# Datos procesados (3.4 GB, se regeneran con main.py / union.py)
+processed/
+
+# Archivo individual >100 MB (límite de GitHub)
+data/city_temperature.csv
+
+# Variables de entorno
+.env

@@ -1,0 +1,11 @@
+body {
+    overflow: hidden;
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', sans-serif;
+}
+.tab {
+    padding: 10px;
+}
+h1, h2, h3, h4 {
+    color: #2c3e50;
+}
